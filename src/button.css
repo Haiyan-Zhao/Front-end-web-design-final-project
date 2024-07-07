@@ -1,0 +1,60 @@
+.button {
+  display: inline-block;
+
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: white;
+  color: blue;
+
+  transition: none;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus-within {
+  background-color: red;
+  color: white;
+}
+
+
+.button-link {
+  display: inline-block;
+  border: none;
+
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+
+  color: blue;
+
+  transition: none;
+
+  cursor: pointer;
+
+}
+
+.button-link:hover,
+.button-link:focus-within {
+  color: red;
+  text-decoration: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .button {
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  }
+
+  .button-link {
+    transition: color 0.3s;
+  }
+
+}

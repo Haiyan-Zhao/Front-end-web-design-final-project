@@ -1,0 +1,129 @@
+.main-about {
+    padding: 1rem;
+}
+
+.main-about__title {
+    text-align: center;
+}
+
+.main-about__grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-between;
+}
+
+.main-about__card,
+.main-about__card-last {
+    display: block;
+
+    grid-column: span 12;
+
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 1rem;
+
+    background-color: #eee;
+    overflow: auto;
+}
+
+.main-about__card-last {
+    border-bottom: 1px solid black;
+
+}
+
+.main-about__card:hover,
+.main-about__card:focus-within,
+.main-about__card-last:hover,
+.main-about__card-last:focus-within {
+
+    border: 1.5px solid black;
+
+    background-color: white;
+    color: var(--color-header-bg);
+
+    font-weight: bold;
+
+    transition: none;
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+    .main-about__card:hover,
+    .main-about__card:focus-within {
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
+
+.card__pic-right {
+    float: right;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    width: 125px;
+    height: 125px;
+}
+
+.card__pic-left {
+    float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    width: 125px;
+    height: 125px;
+}
+
+.card__title {
+    margin-bottom: 0.5rem;
+
+    text-align: center;
+}
+
+.card__text-left,
+.card__text-right {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+
+@media(min-width: 40rem) {
+
+    .main-about__grid {
+        gap: 2rem;
+    }
+
+    .main-about__card,
+    .main-about__card-last {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        border-bottom: 1px solid black;
+
+        margin-bottom: 2rem;
+    }
+
+
+    .card__pic-right {
+        order: 2;
+        width: 200px;
+        height: 200px;
+    }
+
+    .card__text-left {
+        order: 1;
+    }
+
+    .card__pic-left {
+        order: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    .card__text-right {
+        order: 2;
+        text-align: left;
+    }
+
+}

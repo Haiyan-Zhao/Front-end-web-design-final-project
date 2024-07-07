@@ -1,0 +1,153 @@
+/*------------below CSS adapted from https://css.gg under the MIT License-----------*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/calendar-dates.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/heart.css');
+
+.gg-calendar-dates {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-calendar-dates::after,
+.gg-calendar-dates::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 2px;
+    left: 2px
+}
+
+.gg-calendar-dates::before {
+    background: currentColor;
+    width: 2px;
+    box-shadow:
+        4px 0 0, 8px 0 0, 0 4px 0,
+        4px 4px 0, 8px 4px 0;
+    top: 6px
+}
+
+.gg-calendar-dates::after {
+    width: 10px;
+    top: -4px;
+    box-shadow: 0 6px 0 0
+}
+
+.gg-heart,
+.gg-heart::after {
+    border: 2px solid;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 10px;
+    height: 8px;
+    border-bottom: 0
+}
+
+.gg-heart {
+    box-sizing: border-box;
+    position: relative;
+    transform:
+        translate(calc(-10px / 2 * var(--ggs, 1)),
+            calc(-6px / 2 * var(--ggs, 1))) rotate(-45deg) scale(var(--ggs, 1));
+    display: block
+}
+
+.gg-heart::after,
+.gg-heart::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-heart::after {
+    right: -9px;
+    transform: rotate(90deg);
+    top: 5px
+}
+
+.gg-heart::before {
+    width: 11px;
+    height: 11px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    left: -2px;
+    top: 3px
+}
+
+/*------------above CSS adapted from https://css.gg under the MIT License-----------*/
+
+.card__date-rate {
+    margin-right: auto;
+}
+
+.card__date,
+.card__rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date__content {
+    margin: 0rem;
+    margin-left: 0.5rem;
+
+}
+
+.gg-heart {
+    margin: 0.25rem;
+    margin-top: 0.8rem;
+}
+
+.rate__content {
+    margin: 0rem;
+    margin-left: 0.5rem;
+    margin-top: 0.6rem;
+
+}
+
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 1rem;
+}
+
+.filter-contatiner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filter__label {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+
+@media (min-width: 40rem) {
+
+    .filter {
+        flex-direction: row;
+    }
+
+    .filter-contatiner {
+        flex-direction: row;
+
+    }
+
+    .filter__label {
+        padding-right: 0.5rem;
+        padding-left: 1rem;
+    }
+
+
+}

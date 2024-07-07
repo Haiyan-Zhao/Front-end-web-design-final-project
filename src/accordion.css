@@ -1,0 +1,84 @@
+/*------------below CSS adapted from https://css.gg under the MIT License-----------*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/math-plus.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/math-minus.css');
+
+.gg-math-plus,
+.gg-math-plus::after {
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    border-radius: 10px
+}
+
+.gg-math-plus {
+    margin-top: -2px;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px
+}
+
+.gg-math-plus::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    top: -7px;
+    left: 7px
+}
+
+
+.gg-math-minus {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 10px
+}
+
+/*------------above CSS adapted from https://css.gg under the MIT License-----------*/
+
+
+
+.accordion {
+    margin: 0rem 5rem;
+}
+
+
+.accordion__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0rem;
+
+    background-color: transparent;
+}
+
+.accordion__button:hover,
+.accordion__button:focus-within {
+    background-color: transparent;
+    color: red;
+
+    font-size: 1.05rem;
+    font-style: italic;
+}
+
+.accordion__icon {
+    margin-left: auto;
+    transform: scale(0.8);
+}
+
+.accordion__text {
+    margin: 0rem 1rem;
+    font-family: 'Times New Roman';
+
+}

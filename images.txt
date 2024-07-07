@@ -1,0 +1,32 @@
+images licenses:
+
+Header.jsx:
+  homepage-logo.jpg: https://unsplash.com/photos/panda-eating-bamboo-_9a-3NO5KJE
+
+Pandas.jsx：   
+card1.jpg: https://unsplash.com/photos/two-white-and-black-pandas-lying-on-floor-during-daytime-4EajIuUxgAQ
+card2.jpg: https://unsplash.com/photos/panda-bear-on-tree-branch-during-daytime-0wk7m5SVPsM
+card3.jpg: https://unsplash.com/photos/panda-on-tree-1o8VV8yOw40
+card4.jpg: https://unsplash.com/photos/a-panda-bear-on-a-wooden-bench-cQ5GnddiiPA
+card5.jpg: https://unsplash.com/photos/a-panda-bear-sitting-in-the-grass-eating-bamboo-ScdnaKVtPIA
+card6.jpg: https://unsplash.com/photos/panda-bear-on-brown-tree-branch-during-daytime-qgpLJ1T8KeA
+card7.jpg: https://unsplash.com/photos/panda-bear-on-brown-tree-branch-during-daytime-Rvqz1HsrkJQ
+card8.jpg: https://unsplash.com/photos/white-and-black-panda-sitting-near-green-leafed-plant-b4lS_gXkQp0
+card9.jpg: https://unsplash.com/photos/panda-climbing-on-tree-during-daytime-MfmCt8fRaQw
+card10.jpg: https://unsplash.com/photos/panda-on-brown-wooden-basket-rTufXtvIFXc
+card11.jpg: https://unsplash.com/photos/pandas-on-a-wooden-platform-1JloC88VbQY
+card12.jpg: https://unsplash.com/photos/a-panda-bear-sitting-on-top-of-a-tree-branch--OHw8I-_emM
+card13.jpg: https://unsplash.com/photos/a-panda-bear-sitting-on-top-of-a-tree-branch-z1UgM_J_ld8
+card14.jpg: https://unsplash.com/photos/panda-on-brown-dried-leaves-kMyAy2IYlbU
+card15.jpg: https://unsplash.com/photos/a-couple-of-panda-bears-sitting-next-to-each-other-azDo1Hk5MA8
+
+About.jsx:
+mission.jpg: https://unsplash.com/photos/a-scrabble-type-block-spelling-the-word-miss-sits-next-to-a-bouquet-eVhVt7YcMfM
+background.jpg: https://unsplash.com/photos/three-brown-windmill-on-crop-field-Jwj1KiuX42c
+join.jpg: https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4
+
+
+Home.jsx:
+carousel-image1: https://unsplash.com/photos/a-panda-bear-sitting-in-the-grass-eating-bamboo-_k8MIpUC1gs
+carousel-image2: https://unsplash.com/photos/two-white-and-black-panda-wFUyCqW9tS4
+carousel-image3: https://unsplash.com/photos/a-panda-bear-in-a-tree-e0mrn3XDatU

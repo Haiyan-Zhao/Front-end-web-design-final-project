@@ -1,0 +1,58 @@
+.modal {
+    text-align: center;
+}
+
+.open-button {
+    width: 15rem;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.close-button {
+    display: block;
+    margin: 2rem auto;
+
+    color: var(--color-header-bg);
+
+}
+
+.close-button:hover,
+.close-button:focus-within {
+    background-color: var(--color-header-bg);
+    color: white;
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 1rem;
+
+}
+
+.message1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.name-id {
+    margin: 0rem 0.2rem;
+    padding: 0.2rem;
+
+    background-color: red;
+    color: var(--color-header-text);
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
